@@ -1,0 +1,15 @@
+127.0.0.1 - - [21/Nov/2017:00:46:39 +0530] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [21/Nov/2017:00:47:12 +0530] "GET /EasyIndia/index.jsp HTTP/1.1" 200 14152
+0:0:0:0:0:0:0:1 - - [21/Nov/2017:00:47:18 +0530] "GET /EasyIndia/js/3.1.1/jquery.min.js HTTP/1.1" 404 1015
+0:0:0:0:0:0:0:1 - - [21/Nov/2017:00:47:19 +0530] "GET /EasyIndia/bootstrap/js/bootstrap.js HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [21/Nov/2017:00:47:19 +0530] "GET /EasyIndia/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [21/Nov/2017:00:47:19 +0530] "GET /EasyIndia/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [21/Nov/2017:00:47:20 +0530] "GET /EasyIndia/images/logo.PNG HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [21/Nov/2017:00:47:20 +0530] "GET /EasyIndia/images/about.JPG HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [21/Nov/2017:00:47:20 +0530] "GET /EasyIndia/images/race3.jpg HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [21/Nov/2017:00:47:20 +0530] "GET /EasyIndia/images/race2.jpg HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [21/Nov/2017:00:47:20 +0530] "GET /EasyIndia/images/race.jpg HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [21/Nov/2017:00:47:24 +0530] "GET /EasyIndia/js/3.1.1/jquery.min.js HTTP/1.1" 404 1015
+0:0:0:0:0:0:0:1 - - [21/Nov/2017:00:47:31 +0530] "GET /EasyIndia/images/bg3.jpg HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [21/Nov/2017:00:47:35 +0530] "GET /EasyIndia/bootstrap/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [21/Nov/2017:00:47:42 +0530] "GET /favicon.ico HTTP/1.1" 404 973
