@@ -1,0 +1,10 @@
+Sep 12, 2017 12:31:05 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-apr-8080"]
+Sep 12, 2017 12:31:06 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-apr-8009"]
+Sep 12, 2017 12:31:06 AM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Sep 12, 2017 12:31:07 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-apr-8080"]
+Sep 12, 2017 12:31:07 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-apr-8009"]

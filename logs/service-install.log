@@ -1,0 +1,5 @@
+"D:\project\bin\Tomcat7.exe" //IS//Tomcat7 --DisplayName "Apache Tomcat 7.0 Tomcat7" --Description "Apache Tomcat 7.0.73 Server - http://tomcat.apache.org/" --LogPath "D:\project\logs" --Install "D:\project\bin\Tomcat7.exe" --Jvm "C:\Program Files\Java\jre1.8.0_91\bin\server\jvm.dll" --StartPath "D:\project" --StopPath "D:\project"
+"D:\project\bin\Tomcat7.exe" //US//Tomcat7 --Startup auto
+"D:\project\bin\Tomcat7.exe" //US//Tomcat7 --Classpath "D:\project\bin\bootstrap.jar;D:\project\bin\tomcat-juli.jar" --StartClass org.apache.catalina.startup.Bootstrap --StopClass org.apache.catalina.startup.Bootstrap --StartParams start --StopParams stop  --StartMode jvm --StopMode jvm
+"D:\project\bin\Tomcat7.exe" //US//Tomcat7 --JvmOptions "-Dcatalina.home=D:\project#-Dcatalina.base=D:\project#-Djava.endorsed.dirs=D:\project\endorsed#-Djava.io.tmpdir=D:\project\temp#-Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager#-Djava.util.logging.config.file=D:\project\conf\logging.properties"
+"D:\project\bin\Tomcat7.exe" //US//Tomcat7 --StdOutput auto --StdError auto --JvmMs 128 --JvmMx 256

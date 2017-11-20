@@ -1,0 +1,194 @@
+
+2017-06-09 04:08:08 Commons Daemon procrun stderr initialized
+Jun 09, 2017 4:09:12 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.73
+Jun 09, 2017 4:09:14 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Nov 7 2016 21:27:23 UTC
+Jun 09, 2017 4:09:14 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.73.0
+Jun 09, 2017 4:09:14 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Windows 10
+Jun 09, 2017 4:09:14 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            10.0
+Jun 09, 2017 4:09:14 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Jun 09, 2017 4:09:14 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             C:\Program Files\Java\jre1.8.0_91
+Jun 09, 2017 4:09:14 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_91-b15
+Jun 09, 2017 4:09:14 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Jun 09, 2017 4:09:14 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         D:\project
+Jun 09, 2017 4:09:14 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         D:\project
+Jun 09, 2017 4:09:14 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=D:\project
+Jun 09, 2017 4:09:14 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=D:\project
+Jun 09, 2017 4:09:14 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.endorsed.dirs=D:\project\endorsed
+Jun 09, 2017 4:09:14 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=D:\project\temp
+Jun 09, 2017 4:09:14 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Jun 09, 2017 4:09:14 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=D:\project\conf\logging.properties
+Jun 09, 2017 4:09:14 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: exit
+Jun 09, 2017 4:09:14 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Xms128m
+Jun 09, 2017 4:09:14 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Xmx256m
+Jun 09, 2017 4:09:14 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: Loaded APR based Apache Tomcat Native library 1.2.10 using APR version 1.5.2.
+Jun 09, 2017 4:09:14 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+Jun 09, 2017 4:09:28 AM org.apache.catalina.core.AprLifecycleListener initializeSSL
+INFO: OpenSSL successfully initialized (OpenSSL 1.0.2j  26 Sep 2016)
+Jun 09, 2017 4:09:52 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-apr-8080"]
+Jun 09, 2017 4:09:52 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-apr-8009"]
+Jun 09, 2017 4:09:52 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 89185 ms
+Jun 09, 2017 4:09:53 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Jun 09, 2017 4:09:53 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.73
+Jun 09, 2017 4:09:53 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory D:\project\webapps\docs
+Jun 09, 2017 4:10:02 AM org.apache.catalina.util.SessionIdGeneratorBase createSecureRandom
+INFO: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [1,921] milliseconds.
+Jun 09, 2017 4:10:03 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory D:\project\webapps\docs has finished in 10,500 ms
+Jun 09, 2017 4:10:03 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory D:\project\webapps\examples
+Jun 09, 2017 4:10:24 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory D:\project\webapps\examples has finished in 20,437 ms
+Jun 09, 2017 4:10:24 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory D:\project\webapps\host-manager
+Jun 09, 2017 4:10:24 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory D:\project\webapps\host-manager has finished in 469 ms
+Jun 09, 2017 4:10:24 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory D:\project\webapps\manager
+Jun 09, 2017 4:10:25 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory D:\project\webapps\manager has finished in 328 ms
+Jun 09, 2017 4:10:25 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory D:\project\webapps\ROOT
+Jun 09, 2017 4:10:25 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory D:\project\webapps\ROOT has finished in 235 ms
+Jun 09, 2017 4:10:25 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-apr-8080"]
+Jun 09, 2017 4:10:25 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-apr-8009"]
+Jun 09, 2017 4:10:25 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 33429 ms
+Jun 09, 2017 8:05:39 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-apr-8080"]
+Jun 09, 2017 8:05:40 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-apr-8009"]
+Jun 09, 2017 8:05:40 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Jun 09, 2017 8:05:42 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-apr-8080"]
+Jun 09, 2017 8:05:42 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-apr-8009"]
+
+2017-06-09 20:07:19 Commons Daemon procrun stderr initialized
+Jun 09, 2017 8:07:42 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.73
+Jun 09, 2017 8:07:42 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Nov 7 2016 21:27:23 UTC
+Jun 09, 2017 8:07:42 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.73.0
+Jun 09, 2017 8:07:42 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Windows 10
+Jun 09, 2017 8:07:42 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            10.0
+Jun 09, 2017 8:07:42 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Jun 09, 2017 8:07:42 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             C:\Program Files\Java\jre1.8.0_91
+Jun 09, 2017 8:07:42 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_91-b15
+Jun 09, 2017 8:07:42 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Jun 09, 2017 8:07:42 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         D:\project
+Jun 09, 2017 8:07:43 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         D:\project
+Jun 09, 2017 8:07:43 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=D:\project
+Jun 09, 2017 8:07:43 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=D:\project
+Jun 09, 2017 8:07:43 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.endorsed.dirs=D:\project\endorsed
+Jun 09, 2017 8:07:43 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=D:\project\temp
+Jun 09, 2017 8:07:43 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Jun 09, 2017 8:07:43 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=D:\project\conf\logging.properties
+Jun 09, 2017 8:07:43 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: exit
+Jun 09, 2017 8:07:43 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Xms128m
+Jun 09, 2017 8:07:43 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Xmx256m
+Jun 09, 2017 8:07:43 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: Loaded APR based Apache Tomcat Native library 1.2.10 using APR version 1.5.2.
+Jun 09, 2017 8:07:43 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+Jun 09, 2017 8:07:46 PM org.apache.catalina.core.AprLifecycleListener initializeSSL
+INFO: OpenSSL successfully initialized (OpenSSL 1.0.2j  26 Sep 2016)
+Jun 09, 2017 8:07:58 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-apr-8080"]
+Jun 09, 2017 8:07:58 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-apr-8009"]
+Jun 09, 2017 8:07:58 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 31099 ms
+Jun 09, 2017 8:08:01 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Jun 09, 2017 8:08:01 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.73
+Jun 09, 2017 8:08:03 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory D:\project\webapps\docs
+Jun 09, 2017 8:08:22 PM org.apache.catalina.util.SessionIdGeneratorBase createSecureRandom
+INFO: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [4,844] milliseconds.
+Jun 09, 2017 8:08:24 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory D:\project\webapps\docs has finished in 21,063 ms
+Jun 09, 2017 8:08:24 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory D:\project\webapps\examples
+Jun 09, 2017 8:08:57 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory D:\project\webapps\examples has finished in 33,031 ms
+Jun 09, 2017 8:08:57 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory D:\project\webapps\host-manager
+Jun 09, 2017 8:08:58 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory D:\project\webapps\host-manager has finished in 1,063 ms
+Jun 09, 2017 8:08:58 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory D:\project\webapps\manager
+Jun 09, 2017 8:08:58 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory D:\project\webapps\manager has finished in 453 ms
+Jun 09, 2017 8:08:58 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory D:\project\webapps\ROOT
+Jun 09, 2017 8:08:59 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory D:\project\webapps\ROOT has finished in 516 ms
+Jun 09, 2017 8:08:59 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-apr-8080"]
+Jun 09, 2017 8:08:59 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-apr-8009"]
+Jun 09, 2017 8:08:59 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 61297 ms
+Jun 13, 2017 4:09:02 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-apr-8080"]
+Jun 13, 2017 4:09:10 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-apr-8009"]
+Jun 13, 2017 4:09:10 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Jun 13, 2017 4:09:16 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-apr-8080"]
+Jun 13, 2017 4:09:16 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-apr-8009"]
+Jun 13, 2017 4:09:16 PM org.apache.catalina.util.LifecycleBase stop
+INFO: The stop() method was called on component [StandardServer[8005]] after stop() had already been called. The second call will be ignored.

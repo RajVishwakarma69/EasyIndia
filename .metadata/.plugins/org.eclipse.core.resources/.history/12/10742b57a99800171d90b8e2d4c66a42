@@ -1,0 +1,123 @@
+<%-- 
+    Document   : regSuccess
+    Created on : Mar 23, 2017, 3:31:16 AM
+    Author     : AJAY KUMAR PRAJAPATI
+--%>
+
+<%@page import="java.util.Random"%>
+<%@page import="java.text.SimpleDateFormat"%>
+<%@page import="java.text.DateFormat"%>
+<%@page import="java.util.Date"%>
+<%@page import="java.sql.*"%>
+
+        <%       
+        DateFormat df = new SimpleDateFormat("yyMM");
+        Date dateobj = new Date();
+        
+        String feid =df.format(dateobj).toString()+request.getParameter("adhar");
+        String fname= request.getParameter("fname");
+        String mname= request.getParameter("mname");
+        String lname = request.getParameter("lname");
+        String email= request.getParameter("email");
+        String username= request.getParameter("username");
+        String passwd= request.getParameter("passwd");
+        String passwd2= request.getParameter("passwd2");
+        String adhar = request.getParameter("adhar");
+        String mobile = request.getParameter("mobile");
+        String state= request.getParameter("state");
+        String city= request.getParameter("city");
+        String pincode = request.getParameter("pin");
+        DateFormat df1 = new SimpleDateFormat("yyyy-MM-dd");
+        String joindate = df1.format(dateobj).toString();
+        String d= (request.getParameter("d"));
+        String m= (request.getParameter("m"));
+        String y= (request.getParameter("y"));
+       String sqlDate= d+"-"+m+"-"+y;
+       java.util.Date date = new SimpleDateFormat("MM-dd-yyyy").parse(sqlDate);
+        java.sql.Date dob= new java.sql.Date(date.getTime());
+        String image= request.getParameter("image");
+        String gender= request.getParameter("gender");
+        String companyname= request.getParameter("companyname");
+       System.out.println(image);
+       if(passwd.equals(passwd2))
+       {
+        Connection con = null;
+        PreparedStatement prepStmt = null;
+        Statement st=null;
+        String frid=null;
+         try
+            {
+        	String sql="select franchisorsID from franchisors where companyname='"+companyname+"' ";
+        	Class.forName("com.mysql.jdbc.Driver");
+        	con = DriverManager.getConnection("jdbc:mysql://localhost/db","root","ajay");
+           st=con.createStatement();
+             
+             ResultSet rs=st.executeQuery(sql);
+             while(rs.next())
+             { 
+            	 frid=rs.getString(1);
+            	           	
+             }
+             prepStmt = con.prepareStatement("insert into franchisees values(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)");
+                    prepStmt.setString(1, feid);
+                    prepStmt.setString(2, frid);
+                    prepStmt.setString(3, fname);
+                     prepStmt.setString(4, mname);
+                    prepStmt.setString(5, lname);
+                   prepStmt.setString(6, email);
+                    prepStmt.setString(7, username);
+                     prepStmt.setString(8, passwd);
+                     prepStmt.setString(9,adhar);
+                     prepStmt.setString(10, mobile);
+                    prepStmt.setString(11, state);
+                     prepStmt.setString(12, city);
+                    prepStmt.setString(13,pincode);
+                    prepStmt.setString(14,joindate);
+                    prepStmt.setDate(15,dob);
+                    prepStmt.setString(16,gender);
+                    prepStmt.setString(17,companyname);
+                   prepStmt.setString(18,image);
+                    int flag = prepStmt.executeUpdate();
+                    if (flag > 0) {
+                        //session.setAttribute("userid", feid);
+                        %>
+                        <script>
+                        alert("Registration Succaeeful !!!");
+                        window.location = 'login.jsp';
+                        </script>
+                        <%
+                        
+                       // response.sendRedirect("login.jsp");
+                       // out.print("Registration Successfull!"+"<a href='index.jsp'>Go to Login</a>");
+                    } else 
+                    {
+                    	
+                        response.sendRedirect("fereg.jsp");
+                    }
+                    prepStmt.close(); 
+                    con.close();
+                } catch(Exception e)
+                {
+           	%>
+            		<script>
+            		alert("invalid input");
+            		
+    				</script>
+    				<a href=fereg.jsp> try again</a>
+            		<%
+            		
+            		}
+       }else
+       {
+    	   %>
+      	 <script type="text/javascript">
+      	alert("password not matched !!!");
+      	window.location='frreg.jsp';
+      	</script>
+      	    	<%
+       }
+              %>
+
+           		
+
+           		

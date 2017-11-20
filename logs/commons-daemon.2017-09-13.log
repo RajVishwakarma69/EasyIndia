@@ -1,0 +1,6 @@
+[2017-09-13 19:29:28] [info]  [ 9220] Commons Daemon procrun (1.0.15.0 64-bit) started
+[2017-09-13 19:29:31] [info]  [ 9220] Running 'Tomcat7' Service...
+[2017-09-13 19:29:32] [info]  [ 8240] Starting service...
+[2017-09-13 19:29:51] [info]  [ 8240] Service started in 17932 ms.
+[2017-09-13 19:30:41] [info]  [ 9220] Run service finished.
+[2017-09-13 19:30:42] [info]  [ 9220] Commons Daemon procrun finished

@@ -1,0 +1,240 @@
+
+Apr 03, 2017 23:18:55.91 NEW SESSION
+Apr 03, 2017 23:18:55.91 1491241735891	addons.update-checker	WARN	Update manifest for {972ce4c6-7e08-4474-a285-3208198ce6fd} did not contain an updates property
+Apr 04, 2017 23:53:35.70 *************************
+Apr 04, 2017 23:53:35.80 A coding exception was thrown and uncaught in a Task.
+Apr 04, 2017 23:53:35.81 
+Apr 04, 2017 23:53:35.81 Full message: TypeError: this.Paths is null
+Apr 04, 2017 23:53:35.82 Full stack: Agent.write@resource:///modules/sessionstore/SessionWorker.js:196:9
+Apr 04, 2017 23:53:35.84 worker.dispatch@resource:///modules/sessionstore/SessionWorker.js:21:24
+Apr 04, 2017 23:53:35.85 anonymous/AbstractWorker.prototype.handleMessage@resource://gre/modules/workers/PromiseWorker.js:122:16
+Apr 04, 2017 23:53:35.89 @resource:///modules/sessionstore/SessionWorker.js:30:41
+Apr 04, 2017 23:53:35.90 
+Apr 04, 2017 23:53:35.91 *************************
+Apr 04, 2017 23:53:35.92 console.error: 
+Apr 04, 2017 23:53:35.93   Could not write session state file 
+Apr 04, 2017 23:53:35.94   Message: TypeError: this.Paths is null
+Apr 04, 2017 23:53:35.95   Stack:
+Apr 04, 2017 23:53:35.96     Agent.write@resource:///modules/sessionstore/SessionWorker.js:196:9
+Apr 04, 2017 23:53:35.97 worker.dispatch@resource:///modules/sessionstore/SessionWorker.js:21:24
+Apr 04, 2017 23:53:35.98 anonymous/AbstractWorker.prototype.handleMessage@resource://gre/modules/workers/PromiseWorker.js:122:16
+Apr 04, 2017 23:53:36.12 @resource:///modules/sessionstore/SessionWorker.js:30:41
+Apr 04, 2017 23:53:36.13 
+Apr 04, 2017 23:53:36.18   Agent.write@resource:///modules/sessionstore/SessionWorker.js:196:9
+Apr 04, 2017 23:53:36.19 worker.dispatch@resource:///modules/sessionstore/SessionWorker.js:21:24
+Apr 04, 2017 23:53:36.20 anonymous/AbstractWorker.prototype.handleMessage@resource://gre/modules/workers/PromiseWorker.js:122:16
+Apr 04, 2017 23:53:36.22 @resource:///modules/sessionstore/SessionWorker.js:30:41
+Apr 04, 2017 23:53:36.23 
+Apr 05, 2017 24:03:23.79 1491330803787	addons.update-checker	WARN	Update manifest for {972ce4c6-7e08-4474-a285-3208198ce6fd} did not contain an updates property
+
+Apr 06, 2017 24:03:25.34 NEW SESSION
+Apr 06, 2017 24:03:25.38 1491417205059	addons.update-checker	WARN	Update manifest for {972ce4c6-7e08-4474-a285-3208198ce6fd} did not contain an updates property
+
+Sep 12, 2017 24:32:16.76 NEW SESSION
+Sep 12, 2017 24:32:16.77 1505156536766	addons.update-checker	WARN	Update manifest for aushelper@mozilla.org did not contain an updates property
+Sep 12, 2017 24:32:17.22 1505156537222	addons.update-checker	WARN	Update manifest for e10srollout@mozilla.org did not contain an updates property
+Sep 12, 2017 24:32:17.82 1505156537827	addons.update-checker	WARN	Update manifest for webcompat@mozilla.org did not contain an updates property
+Sep 12, 2017 24:32:17.90 1505156537901	addons.update-checker	WARN	Update manifest for followonsearch@mozilla.com did not contain an updates property
+Sep 12, 2017 24:32:17.93 1505156537937	addons.update-checker	WARN	Update manifest for {972ce4c6-7e08-4474-a285-3208198ce6fd} did not contain an updates property
+Sep 12, 2017 24:32:19.67 1505156539678	addons.update-checker	WARN	Update manifest for firefox@getpocket.com did not contain an updates property
+Sep 12, 2017 24:33:29.08 IPDL protocol error: Handler returned error code!
+Sep 12, 2017 24:33:29.09 
+Sep 12, 2017 24:33:29.10 ###!!! [Parent][DispatchAsyncMessage] Error: PAPZCTreeManager::Msg_SetTargetAPZC Processing error: message was deserialized, but the handler returned false (indicating failure)
+Sep 12, 2017 24:33:29.11 
+Sep 12, 2017 24:33:38.84 [GPU 3340] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Sep 12, 2017 24:33:40.66 IPDL protocol error: Handler returned error code!
+Sep 12, 2017 24:33:40.67 
+Sep 12, 2017 24:33:40.69 ###!!! [Parent][DispatchAsyncMessage] Error: PAPZCTreeManager::Msg_SetTargetAPZC Processing error: message was deserialized, but the handler returned false (indicating failure)
+Sep 12, 2017 24:33:40.70 
+Sep 12, 2017 24:34:14.01 *************************
+Sep 12, 2017 24:34:14.01 A coding exception was thrown and uncaught in a Task.
+Sep 12, 2017 24:34:14.03 
+Sep 12, 2017 24:34:14.04 Full message: TypeError: NetworkError when attempting to fetch resource.
+Sep 12, 2017 24:34:14.04 Full stack: loadFile@resource://gre/modules/services-common/blocklist-clients.js:119:30
+Sep 12, 2017 24:34:14.06 TaskImpl_run@resource://gre/modules/Task.jsm:319:42
+Sep 12, 2017 24:34:14.08 TaskImpl@resource://gre/modules/Task.jsm:277:3
+Sep 12, 2017 24:34:14.08 asyncFunction@resource://gre/modules/Task.jsm:252:14
+Sep 12, 2017 24:34:14.09 Task_spawn@resource://gre/modules/Task.jsm:166:12
+Sep 12, 2017 24:34:14.11 loadDumpFile@resource://gre/modules/services-common/blocklist-clients.js:118:12
+Sep 12, 2017 24:34:14.11 syncCollection@resource://gre/modules/services-common/blocklist-clients.js:212:39
+Sep 12, 2017 24:34:14.13 TaskImpl_run@resource://gre/modules/Task.jsm:319:42
+Sep 12, 2017 24:34:14.15 
+Sep 12, 2017 24:34:14.16 *************************
+Sep 12, 2017 24:34:30.85 IPDL protocol error: Handler returned error code!
+Sep 12, 2017 24:34:30.86 
+Sep 12, 2017 24:34:30.87 ###!!! [Parent][DispatchAsyncMessage] Error: PAPZCTreeManager::Msg_SetTargetAPZC Processing error: message was deserialized, but the handler returned false (indicating failure)
+Sep 12, 2017 24:34:30.88 
+Sep 12, 2017 24:34:32.07 [GPU 3340] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+Sep 12, 2017 24:47:15.26 NEW SESSION
+Sep 12, 2017 24:47:15.26 IPDL protocol error: Handler returned error code!
+Sep 12, 2017 24:47:15.27 
+Sep 12, 2017 24:47:15.28 ###!!! [Parent][DispatchAsyncMessage] Error: PAPZCTreeManager::Msg_SetTargetAPZC Processing error: message was deserialized, but the handler returned false (indicating failure)
+Sep 12, 2017 24:47:15.29 
+Sep 12, 2017 24:47:17.79 [GPU 2192] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Sep 12, 2017 24:48:40.11 IPDL protocol error: Handler returned error code!
+Sep 12, 2017 24:48:40.16 
+Sep 12, 2017 24:48:40.17 ###!!! [Parent][DispatchAsyncMessage] Error: PAPZCTreeManager::Msg_SetTargetAPZC Processing error: message was deserialized, but the handler returned false (indicating failure)
+Sep 12, 2017 24:48:40.19 
+Sep 12, 2017 24:50:02.28 IPDL protocol error: Handler returned error code!
+Sep 12, 2017 24:50:02.33 
+Sep 12, 2017 24:50:02.34 ###!!! [Parent][DispatchAsyncMessage] Error: PAPZCTreeManager::Msg_SetTargetAPZC Processing error: message was deserialized, but the handler returned false (indicating failure)
+Sep 12, 2017 24:50:02.35 
+Sep 12, 2017 24:50:03.86 [GPU 2192] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Sep 12, 2017 24:50:30.78 IPDL protocol error: Handler returned error code!
+Sep 12, 2017 24:50:30.78 
+Sep 12, 2017 24:50:30.80 ###!!! [Parent][DispatchAsyncMessage] Error: PAPZCTreeManager::Msg_SetTargetAPZC Processing error: message was deserialized, but the handler returned false (indicating failure)
+Sep 12, 2017 24:50:30.82 
+Sep 12, 2017 24:50:32.60 [GPU 2192] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Sep 12, 2017 24:53:49.40 IPDL protocol error: Handler returned error code!
+Sep 12, 2017 24:53:49.42 
+Sep 12, 2017 24:53:49.43 ###!!! [Parent][DispatchAsyncMessage] Error: PAPZCTreeManager::Msg_SetTargetAPZC Processing error: message was deserialized, but the handler returned false (indicating failure)
+Sep 12, 2017 24:53:49.44 
+Sep 12, 2017 24:53:50.49 [GPU 2192] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Sep 12, 2017 24:53:51.88 IPDL protocol error: Handler returned error code!
+Sep 12, 2017 24:53:51.90 
+Sep 12, 2017 24:53:51.91 ###!!! [Parent][DispatchAsyncMessage] Error: PAPZCTreeManager::Msg_SetTargetAPZC Processing error: message was deserialized, but the handler returned false (indicating failure)
+Sep 12, 2017 24:53:51.92 
+Sep 12, 2017 24:53:52.99 [GPU 2192] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Sep 12, 2017 24:55:37.41 IPDL protocol error: Handler returned error code!
+Sep 12, 2017 24:55:37.41 
+Sep 12, 2017 24:55:37.42 ###!!! [Parent][DispatchAsyncMessage] Error: PAPZCTreeManager::Msg_SetTargetAPZC Processing error: message was deserialized, but the handler returned false (indicating failure)
+Sep 12, 2017 24:55:37.44 
+Sep 12, 2017 24:55:38.73 [GPU 2192] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Sep 12, 2017 04:26:22.53 [GPU 2192] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Sep 12, 2017 04:26:23.79 [Child 8980] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Sep 12, 2017 04:26:27.25 
+Sep 12, 2017 04:26:27.27 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+Sep 12, 2017 04:26:27.29 
+
+Sep 13, 2017 19:59:00.66 NEW SESSION
+Sep 13, 2017 19:59:00.66 [GPU 224] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Sep 13, 2017 19:59:01.84 
+Sep 13, 2017 19:59:01.86 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+Sep 13, 2017 19:59:01.88 
+Sep 13, 2017 19:59:28.01 [GPU 5484] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Sep 13, 2017 19:59:29.01 
+Sep 13, 2017 19:59:29.03 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+Sep 13, 2017 19:59:29.05 
+
+Sep 13, 2017 20:02:13.11 NEW SESSION
+Sep 13, 2017 20:02:13.11 [Child 3440] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Sep 13, 2017 20:02:13.15 [Child 3440] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Sep 13, 2017 20:02:14.07 
+Sep 13, 2017 20:02:14.09 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+Sep 13, 2017 20:02:14.10 
+Sep 13, 2017 20:04:19.42 
+Sep 13, 2017 20:04:19.45 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+Sep 13, 2017 20:04:19.47 
+Sep 13, 2017 20:06:02.32 [Parent 9732] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Sep 13, 2017 20:06:02.36 [Child 4428] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Sep 13, 2017 20:06:03.23 
+Sep 13, 2017 20:06:03.25 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+Sep 13, 2017 20:06:03.27 
+Sep 13, 2017 20:09:37.69 [Child 9432] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Sep 13, 2017 20:09:38.73 
+Sep 13, 2017 20:09:38.76 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+Sep 13, 2017 20:09:38.77 
+Sep 13, 2017 20:11:15.97 1505313675977	addons.update-checker	WARN	Update manifest for e10srollout@mozilla.org did not contain an updates property
+Sep 13, 2017 20:11:17.63 1505313677629	addons.update-checker	WARN	Update manifest for webcompat@mozilla.org did not contain an updates property
+Sep 13, 2017 20:11:17.67 1505313677661	addons.update-checker	WARN	Update manifest for clicktoplay-rollout@mozilla.org did not contain an updates property
+Sep 13, 2017 20:11:18.02 1505313678025	addons.update-checker	WARN	Update manifest for followonsearch@mozilla.com did not contain an updates property
+Sep 13, 2017 20:11:18.77 1505313678770	addons.update-checker	WARN	Update manifest for {972ce4c6-7e08-4474-a285-3208198ce6fd} did not contain an updates property
+Sep 13, 2017 20:11:45.09 1505313705092	addons.update-checker	WARN	Update manifest for firefox@getpocket.com did not contain an updates property
+Sep 13, 2017 20:12:09.56 1505313729567	addons.update-checker	WARN	Request for https://versioncheck-bg.addons.mozilla.org/update/VersionCheck.php?reqVersion=2&id=aushelper@mozilla.org&version=2.0&maxAppVersion=55.*&status=userEnabled&appID={ec8030f7-c20a-464f-9b0e-13a3a9e97384}&appVersion=55.0.3&appOS=WINNT&appABI=x86-msvc&locale=en-US&currentAppVersion=55.0.3&updateType=112&compatMode=normal timed out
+Sep 13, 2017 20:12:40.09 1505313760091	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+Sep 13, 2017 20:12:40.15 1505313760109	addons.xpi	ERROR	Failed to download system add-on screenshots@mozilla.org: Error: Failed downloading via XHR, status: 0, reason: error (resource://gre/modules/addons/ProductAddonChecker.jsm:318:16) JS Stack trace: fail@ProductAddonChecker.jsm:318:16
+
+Sep 13, 2017 20:18:59.83 NEW SESSION
+Sep 13, 2017 20:18:59.83 IPDL protocol error: Handler returned error code!
+Sep 13, 2017 20:18:59.89 
+Sep 13, 2017 20:18:59.90 ###!!! [Parent][DispatchAsyncMessage] Error: PAPZCTreeManager::Msg_SetTargetAPZC Processing error: message was deserialized, but the handler returned false (indicating failure)
+Sep 13, 2017 20:18:59.92 
+Sep 13, 2017 20:19:01.16 [GPU 3336] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Sep 13, 2017 20:19:21.28 [GPU 3336] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Sep 13, 2017 20:20:42.82 IPDL protocol error: Handler returned error code!
+Sep 13, 2017 20:20:42.83 
+Sep 13, 2017 20:20:42.85 ###!!! [Parent][DispatchAsyncMessage] Error: PAPZCTreeManager::Msg_SetTargetAPZC Processing error: message was deserialized, but the handler returned false (indicating failure)
+Sep 13, 2017 20:20:42.86 
+Sep 13, 2017 20:20:44.02 [GPU 3336] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Sep 13, 2017 22:43:22.93 IPDL protocol error: Handler returned error code!
+Sep 13, 2017 22:43:22.99 
+Sep 13, 2017 22:43:23.00 ###!!! [Parent][DispatchAsyncMessage] Error: PAPZCTreeManager::Msg_SetTargetAPZC Processing error: message was deserialized, but the handler returned false (indicating failure)
+Sep 13, 2017 22:43:23.02 
+Sep 13, 2017 22:43:25.62 [GPU 3336] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Sep 13, 2017 22:58:37.01 [GPU 3336] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Sep 13, 2017 22:58:37.14 [GPU 3336] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Sep 13, 2017 22:58:37.38 [Parent 10540] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Sep 13, 2017 22:58:37.58 [Child 3516] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Sep 13, 2017 22:58:39.75 
+Sep 13, 2017 22:58:39.79 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+Sep 13, 2017 22:58:39.83 
+Sep 13, 2017 23:07:52.71 
+Sep 13, 2017 23:07:52.77 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+Sep 13, 2017 23:07:52.79 
+Sep 13, 2017 23:11:34.56 IPDL protocol error: Handler returned error code!
+Sep 13, 2017 23:11:34.65 
+Sep 13, 2017 23:11:34.75 ###!!! [Parent][DispatchAsyncMessage] Error: PAPZCTreeManager::Msg_SetTargetAPZC Processing error: message was deserialized, but the handler returned false (indicating failure)
+Sep 13, 2017 23:11:34.77 
+Sep 13, 2017 23:11:35.31 [GPU 7660] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Sep 13, 2017 23:11:37.09 IPDL protocol error: Handler returned error code!
+Sep 13, 2017 23:11:37.10 
+Sep 13, 2017 23:11:37.12 ###!!! [Parent][DispatchAsyncMessage] Error: PAPZCTreeManager::Msg_SetTargetAPZC Processing error: message was deserialized, but the handler returned false (indicating failure)
+Sep 13, 2017 23:11:37.13 
+Sep 13, 2017 23:11:38.16 [GPU 7660] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Sep 13, 2017 23:13:15.39 IPDL protocol error: Handler returned error code!
+Sep 13, 2017 23:13:15.46 
+Sep 13, 2017 23:13:15.47 ###!!! [Parent][DispatchAsyncMessage] Error: PAPZCTreeManager::Msg_SetTargetAPZC Processing error: message was deserialized, but the handler returned false (indicating failure)
+Sep 13, 2017 23:13:15.49 
+Sep 13, 2017 23:13:17.18 [GPU 7660] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Sep 13, 2017 23:13:18.39 IPDL protocol error: Handler returned error code!
+Sep 13, 2017 23:13:18.41 
+Sep 13, 2017 23:13:18.42 ###!!! [Parent][DispatchAsyncMessage] Error: PAPZCTreeManager::Msg_SetTargetAPZC Processing error: message was deserialized, but the handler returned false (indicating failure)
+Sep 13, 2017 23:13:18.44 
+Sep 13, 2017 23:13:19.52 [GPU 7660] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Sep 13, 2017 23:13:25.98 IPDL protocol error: Handler returned error code!
+Sep 13, 2017 23:13:25.99 
+Sep 13, 2017 23:13:26.01 ###!!! [Parent][DispatchAsyncMessage] Error: PAPZCTreeManager::Msg_SetTargetAPZC Processing error: message was deserialized, but the handler returned false (indicating failure)
+Sep 13, 2017 23:13:26.02 
+Sep 13, 2017 23:13:28.31 [GPU 7660] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Sep 13, 2017 23:13:31.03 IPDL protocol error: Handler returned error code!
+Sep 13, 2017 23:13:31.05 
+Sep 13, 2017 23:13:31.06 ###!!! [Parent][DispatchAsyncMessage] Error: PAPZCTreeManager::Msg_SetTargetAPZC Processing error: message was deserialized, but the handler returned false (indicating failure)
+Sep 13, 2017 23:13:31.07 
+Sep 13, 2017 23:13:33.79 [GPU 7660] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Sep 13, 2017 23:13:33.92 IPDL protocol error: Handler returned error code!
+Sep 13, 2017 23:13:33.93 
+Sep 13, 2017 23:13:33.95 ###!!! [Parent][DispatchAsyncMessage] Error: PAPZCTreeManager::Msg_SetTargetAPZC Processing error: message was deserialized, but the handler returned false (indicating failure)
+Sep 13, 2017 23:13:33.96 
+Sep 13, 2017 23:13:36.06 [GPU 7660] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Sep 13, 2017 23:24:23.16 [GPU 7660] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Sep 13, 2017 23:24:23.21 [Parent 1076] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Sep 13, 2017 23:24:23.26 [Child 3472] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Sep 13, 2017 23:24:24.16 
+Sep 13, 2017 23:24:24.18 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+Sep 13, 2017 23:24:24.19 
+Sep 13, 2017 23:55:00.71 [Parent 1788] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Sep 13, 2017 23:55:00.86 [Child 5740] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Sep 13, 2017 23:57:29.88 [GPU 9736] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Sep 13, 2017 23:57:32.40 [GPU 9736] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Sep 13, 2017 23:57:44.28 IPDL protocol error: Handler returned error code!
+Sep 13, 2017 23:57:44.30 
+Sep 13, 2017 23:57:44.31 ###!!! [Parent][DispatchAsyncMessage] Error: PAPZCTreeManager::Msg_SetTargetAPZC Processing error: message was deserialized, but the handler returned false (indicating failure)
+Sep 13, 2017 23:57:44.33 
+Sep 13, 2017 23:57:50.13 [GPU 9736] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Sep 13, 2017 23:58:54.21 IPDL protocol error: Handler returned error code!
+Sep 13, 2017 23:58:54.29 
+Sep 13, 2017 23:58:54.30 ###!!! [Parent][DispatchAsyncMessage] Error: PAPZCTreeManager::Msg_SetTargetAPZC Processing error: message was deserialized, but the handler returned false (indicating failure)
+Sep 13, 2017 23:58:54.32 
+Sep 13, 2017 23:58:56.46 [GPU 9736] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Sep 14, 2017 24:00:36.44 [GPU 9736] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Sep 14, 2017 02:02:58.80 [GPU 9736] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Sep 14, 2017 02:02:59.25 [GPU 9736] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Sep 14, 2017 02:02:59.26 [Parent 1788] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Sep 14, 2017 02:02:59.28 [Parent 1788] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Sep 14, 2017 02:02:59.29 [Parent 1788] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Sep 14, 2017 02:02:59.30 [Parent 1788] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Sep 14, 2017 02:02:59.39 [Child 12928] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Sep 14, 2017 02:02:59.41 [Child 3472] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Sep 14, 2017 02:02:59.43 [Child 3472] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Sep 14, 2017 02:03:05.28 [GPU 9736] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346

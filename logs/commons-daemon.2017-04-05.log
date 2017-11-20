@@ -1,0 +1,6 @@
+[2017-04-05 23:00:55] [info]  [13852] Commons Daemon procrun (1.0.15.0 64-bit) started
+[2017-04-05 23:00:56] [info]  [13852] Debugging 'Tomcat7' service...
+[2017-04-05 23:00:57] [info]  [13852] Starting service...
+[2017-04-05 23:00:59] [info]  [13852] Service started in 1757 ms.
+[2017-04-05 23:01:13] [info]  [13852] Debug service finished with exit code 0
+[2017-04-05 23:01:14] [info]  [13852] Commons Daemon procrun finished

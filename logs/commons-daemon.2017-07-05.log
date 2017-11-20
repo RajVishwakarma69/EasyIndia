@@ -1,0 +1,9 @@
+[2017-07-05 12:03:00] [info]  [ 3044] Commons Daemon procrun (1.0.15.0 64-bit) started
+[2017-07-05 12:03:02] [info]  [ 3044] Running 'Tomcat7' Service...
+[2017-07-05 12:03:05] [info]  [ 4268] Starting service...
+[2017-07-05 12:03:09] [info]  [ 4268] Service started in 2320 ms.
+[2017-07-09 16:54:46] [info]  [ 7244] Console SHUTDOWN event signaled
+[2017-07-09 16:54:47] [info]  [ 7244] Stopping service...
+[2017-07-09 16:54:52] [info]  [ 7244] Service stop thread completed.
+[2017-07-09 16:54:57] [info]  [ 3044] Run service finished.
+[2017-07-09 16:55:03] [info]  [ 3044] Commons Daemon procrun finished

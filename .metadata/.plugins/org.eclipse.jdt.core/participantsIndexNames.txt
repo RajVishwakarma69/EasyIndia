@@ -1,0 +1,9 @@
+INDEX VERSION 1.126
+D:\project\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3335105816.index
+\EasyIndi\src
+D:\project\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\240995297.index
+\FranchiseeIndia\src
+D:\project\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3205549143.index
+\EasyIndia\src
+D:\project\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2309595929.index
+\FranchiseeIndia\src
