@@ -238,3 +238,7 @@ Sep 14, 2017 02:02:59.39 [Child 12928] WARNING: pipe error: 109: file c:/builds/
 Sep 14, 2017 02:02:59.41 [Child 3472] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
 Sep 14, 2017 02:02:59.43 [Child 3472] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
 Sep 14, 2017 02:03:05.28 [GPU 9736] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+Nov 21, 2017 24:47:47.41 NEW SESSION
+Nov 21, 2017 24:47:47.41 Unable to read VR Path Registry from C:\Users\Raj\AppData\Local\openvr\openvrpaths.vrpath
+Nov 21, 2017 24:48:55.80 ??????????p: T??????????p: T??????????p: T[Child 7572, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
