@@ -74,7 +74,7 @@ function checkTime(i) {
   }
   .navbar-nav li a:hover, .navbar-nav li.active a {
       color: blue !important;
-      background-color: pink !important;
+      background-color: pink !;
   }
   .navbar-default, .navbar-toggle {
       border-color: transparent;
